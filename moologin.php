@@ -141,7 +141,7 @@ function get_key_value($string, $key) {
 }
 
 /**
- * Handler for the plugins shortcode (e.g. [link2moodle cohort='abc123']my link text[/link2moodle])
+ * Handler for the plugins shortcode (e.g. [moologin courseid='test']my link text[/moologin])
  * note: applies do_shortcode() to content to allow other plugins to be handled on links
  * when unauthenticated just returns the inner content (e.g. my link text) without a link
  */
